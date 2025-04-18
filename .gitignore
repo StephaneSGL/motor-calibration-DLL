@@ -30,3 +30,49 @@
 *.exe
 *.out
 *.app
+# ---- General ----
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# ---- Build folders ----
+/build/
+/bin/
+/out/
+/dist/
+/CMakeFiles/
+/CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# ---- Visual Studio ----
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.ipch
+*.opensdf
+
+# ---- DLL / Lib artifacts ----
+*.dll
+*.lib
+*.exp
+*.pdb
+*.obj
+
+# ---- Mac / Linux generated ----
+*.dSYM/
+*.o
+*.so
+*.a
+
+# ---- VS Code settings ----
+.vscode/
