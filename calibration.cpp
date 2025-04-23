@@ -5,6 +5,10 @@
 #include <iostream>
 #include <stdexcept> 
 
+extern "C" void CalibrateMotor() {
+    // Simule une séquence de calibration
+    std::cout << "Calibration du moteur lancée..." << std::endl;
+
 // Stub/mock of digitalRead for testing purposes.
 bool digitalRead(int pin) {
     // TODO: Replace with real GPIO read logic
