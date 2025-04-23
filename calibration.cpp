@@ -1,12 +1,11 @@
 // calibration.cpp
+#include <pch.h>
 #include "calibration.h"
 #include <windows.h>
 #include <iostream>
 #include <stdexcept> 
-#include <pch.h>
 
 // Stub/mock of digitalRead for testing purposes.
-// Replace this with actual GPIO reading if running on real hardware.
 bool digitalRead(int pin) {
     // TODO: Replace with real GPIO read logic
     return false; // Change to simulate limit switch activation
